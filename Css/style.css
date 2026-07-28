@@ -42,6 +42,15 @@ body{
     transition: 0.3s ease;
 }
 
+
+#hero {
+    background-color: #f897d3; 
+    height: 50vh;
+}
+.hero-text {
+    padding: 24px;
+}
+
 #hero h4{
      padding-top: 15px;
      padding-bottom: 20px;
@@ -59,4 +68,13 @@ body{
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+}
+
+#feature{
+    display: flex;
+    padding: px;
+}
+
+#feature .fe-box{
+    padding: 32px;
 }
